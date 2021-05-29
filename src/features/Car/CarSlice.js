@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 const initialState = {
     cars: [
         <Link to="#model-s">Harly Devinson</Link>,
-        <Link to="#model-3">Model 3</Link>,
-        <Link to="#model-x">Model X</Link>,
-        <Link to="#model-y">Model Y</Link>
+        <Link to="#model-3">Yamaha MT15</Link>,
+        <Link to="#model-x">Royal Enfield</Link>,
+        <Link to="#model-y">X-cel</Link>
     ]
 }
 

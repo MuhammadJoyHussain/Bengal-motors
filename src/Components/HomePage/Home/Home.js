@@ -17,7 +17,7 @@ const Home = () => {
            </div>
             <div id="model-y">
             <Section
-            title= "Model Y"
+            title= "Yamaha MT15"
             description="Order Online for Touchless Delevery"
             backgroundImg="model-ya.jpg"
             leftBtnText="Custom order"
@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div id="model-s">
             <Section
-             title= "Model 3"
+             title= "Royal Enfield"
              description="Order Online for Touchless Delevery"
              backgroundImg="model-3a.jpg"
              leftBtnText="Custom order"
@@ -35,7 +35,7 @@ const Home = () => {
             </div>
             <div id="model-x">
             <Section
-             title= "Model X"
+             title= "X-cel"
              description="Order Online for Touchless Delevery"
              backgroundImg="model-xa.jpg"
              leftBtnText="Custom order"
