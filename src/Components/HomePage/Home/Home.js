@@ -6,38 +6,46 @@ import Section from '../Section/Section';
 const Home = () => {
     return (
         <Container>
-            <Section
+           <div id="model-s">
+           <Section
             title= "Model S"
             description="Order Online for Touchless Delevery"
-            backgroundImg="model-s.jpg"
+            backgroundImg="model-sa.jpg"
             leftBtnText="Custom order"
             rightBtnText="Existing inventory"
             />
+           </div>
+            <div id="model-y">
             <Section
             title= "Model Y"
             description="Order Online for Touchless Delevery"
-            backgroundImg="model-y.jpg"
+            backgroundImg="model-ya.jpg"
             leftBtnText="Custom order"
             rightBtnText="Existing inventory"
             />
+            </div>
+            <div id="model-s">
             <Section
              title= "Model 3"
              description="Order Online for Touchless Delevery"
-             backgroundImg="model-3.jpg"
+             backgroundImg="model-3a.jpg"
              leftBtnText="Custom order"
              rightBtnText="Existing inventory"
             />
+            </div>
+            <div id="model-x">
             <Section
              title= "Model X"
              description="Order Online for Touchless Delevery"
-             backgroundImg="model-x.jpg"
+             backgroundImg="model-xa.jpg"
              leftBtnText="Custom order"
              rightBtnText="Existing inventory"
             />
+            </div>
             <Section
             title="Lowest Cost Solar Panels in America"
             description="Money-back guarantee"
-            backgroundImg="solar-panel.jpg"
+            backgroundImg="solar-panela.jpg"
             leftBtnText="Order now"
             rightBtnText="Learn more"
             />
