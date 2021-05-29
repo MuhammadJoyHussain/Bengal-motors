@@ -8,7 +8,7 @@ const Home = () => {
         <Container>
            <div id="model-s">
            <Section
-            title= "Model S"
+            title= "Harly Devinson"
             description="Order Online for Touchless Delevery"
             backgroundImg="model-sa.jpg"
             leftBtnText="Custom order"
