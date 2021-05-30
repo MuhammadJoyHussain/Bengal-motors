@@ -36,7 +36,6 @@ const Header = () => {
                 <li><a href="#">Trade-in</a></li>
                 <li><a href="#">Cybertruck</a></li>
                 <li><a href="#">Roadster</a></li>
-                <li><a href="#">Existing Invetory</a></li>
             
             </BurgerNav>
         </Container>
