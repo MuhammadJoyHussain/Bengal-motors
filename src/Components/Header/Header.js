@@ -21,8 +21,8 @@ const Header = () => {
                 ))}
             </Menu>
             <RightMenu>
-                <a href="#">Shop</a>
-                <a href="#">Tesla Account</a>
+                <a style={{color:"black"}} href="#">Shop</a>
+                <a style={{color:"black"}} href="#">BENGAL MOTORS Account</a>
                 <CustomMenu onClick={()=>setBurgerStatus(true)} />
             </RightMenu>
             <BurgerNav show={burgerStatus}>
