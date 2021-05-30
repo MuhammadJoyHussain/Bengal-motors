@@ -1,18 +1,19 @@
 import React from 'react';
 import styled from "styled-components";
-import Fade from 'react-fade-in';
+// import Zoom from 'react-Zoom-in';
+import { Zoom } from "react-awesome-reveal";
 
 const Section = ({ title, description, leftBtnText, rightBtnText, backgroundImg }) => {
     return (
         <Wrap bgImage={backgroundImg}>
-            <Fade>
+            <Zoom>
             <ItemText>
                 <h1>{title}</h1>
                 <p>{description}</p>
             </ItemText>
-            </Fade>
+            </Zoom>
             <Buttons>
-                <Fade>
+                <Zoom>
             <ButtonGroup>
                 <LeftButton>
                     {leftBtnText}
@@ -24,7 +25,7 @@ const Section = ({ title, description, leftBtnText, rightBtnText, backgroundImg 
                 }
             </ButtonGroup>
             <DownArrow src="/images/down-arrow.svg" />
-            </Fade>
+            </Zoom>
             </Buttons>
         </Wrap>
     );
