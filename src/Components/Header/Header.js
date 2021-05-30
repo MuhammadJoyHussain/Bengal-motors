@@ -12,7 +12,6 @@ const Header = () => {
     return (
         <Container>
             <a>
-                {/* <img src="/images/logo.svg" alt="" /> */}
                 <h3><b style={{color:"black"}}>BENGAL MOTORS</b></h3>
             </a>
             <Menu>
@@ -37,6 +36,7 @@ const Header = () => {
                 <li><a href="#">Trade-in</a></li>
                 <li><a href="#">Cybertruck</a></li>
                 <li><a href="#">Roadster</a></li>
+                <li><a href="#">Existing Invetory</a></li>
             
             </BurgerNav>
         </Container>
